@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+:root{
+    --backgroundColour: #315f72;
+    --textColour: #f57e7e;
+}
+html > *{
+    font-family: "Raleway";
+}
+body, html{
+    /* height: 100%; */
+    /* width: 100%; */
+}
+body{
+    /* background-color: var(--backgroundColour); */
+}
+.title{
+    /* color: var(--textColour); */
+    font-size: 40px;
+    /* vertical-align: middle; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
