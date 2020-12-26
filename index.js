@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
 
 icons.forEach((item, i) => {
     item.addEventListener("mouseenter", (event) => {
-        event.target.style.color = "#000000"
+        event.target.style.color = colours[randomNumber][0]
         event.target.style.transition = "500ms"
     })
     item.addEventListener("mouseleave", event => {
